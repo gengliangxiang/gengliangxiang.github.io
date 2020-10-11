@@ -18,6 +18,26 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 ```
 
+## css 视窗单位
+
+```
+// vw——viewpoint width，视窗宽度，1vw等于视窗宽度的1%；
+// vh——viewpoint height，视窗高度，1vh等于视窗高度的1%；
+width: 80vw;
+height: 100vh;
+```
+
+## css 计算属性
+
+```
+// calc() = calc(四则运算)
+width: calc(100% - 10px)；
+// 需要注意的是，运算符前后都需要保留一个空格
+// 任何长度值都可以使用calc()函数进行计算；
+// calc()函数支持 "+", "-", "*", "/" 运算；
+// calc()函数使用标准的数学运算优先级规则
+```
+
 ## css 设置鼠标事件不响应
 
 > 子元素会继承,子元素设置`pointer-events: none;`可以去除
@@ -75,6 +95,29 @@ input:-ms-input-placeholder { /* IE 10+ */
 input:-moz-placeholder { /* Firefox 18- */
     color: red;
 }
+```
+
+## 设置首行缩进
+
+```
+text-indent: 10px;
+```
+
+## 设置透明色
+
+```
+background:transparent;
+```
+
+## 文字图片对齐方式
+```
+vertical-align: top;
+vertical-align: middle;
+vertical-align: bottom;
+```
+
+```
+background:transparent;
 ```
 
 ## css 滤镜
