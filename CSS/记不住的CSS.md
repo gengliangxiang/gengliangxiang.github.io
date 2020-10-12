@@ -1,3 +1,5 @@
+# 记不住的 CSS
+
 ## 文本溢出显示省略号
 
 - 单行溢出
@@ -110,6 +112,7 @@ background:transparent;
 ```
 
 ## 文字图片对齐方式
+
 ```
 vertical-align: top;
 vertical-align: middle;

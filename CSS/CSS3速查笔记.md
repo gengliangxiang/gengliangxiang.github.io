@@ -1,6 +1,6 @@
-## CSS3 速查笔记
+# CSS3 速查笔记
 
-### 一、阴影
+## 一、阴影
 
 #### 1. 文字阴影
 
@@ -30,7 +30,7 @@ box-shadow: 0 5px 8px rgb(96, 129, 221);
 
 ![盒子阴影](../assets/css/box-shadow.png)
 
-### 二、背景
+## 二、背景
 
 #### 1. 背景尺寸
 
@@ -81,7 +81,7 @@ url(images/baby0.jpg) no-repeat center center,
 url(images/bg5.png) no-repeat center center;
 ```
 
-### 三、过渡属性
+## 三、过渡属性
 
 ```
 transition: 过渡属性  持续时间 延迟  运动曲线;
@@ -97,7 +97,7 @@ transition-timing-function: 运动曲线
     transition-delay: 延迟执行
 ```
 
-### 四、渐变属性
+## 四、渐变属性
 
 #### 1. 线性渐变
 
@@ -124,7 +124,7 @@ radial-gradient(辐射半径,中心点位置，起始颜色，终止颜色);
     shape 50px 100px
 ```
 
-### 五、2D 转换
+## 五、2D 转换
 
 > 如果多个属性发生过渡，多个属性连写，之间使用空格隔开
 
@@ -175,7 +175,7 @@ transform-origin:left;  /*变换中心*/
 取值：left  top center  right bottom    50px 50px；
 ```
 
-### 六、3D 转换
+## 六、3D 转换
 
 ```
 所有的3d旋转，对着正方向去看，都是顺时针旋转
@@ -213,7 +213,7 @@ flat： 子盒子被扁平化
 backface-visibility:hidden 背面不可见
 ```
 
-### 七、动画
+## 七、动画
 
 ```
 animation:move 1s  alternate linear 3 ;
