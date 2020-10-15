@@ -16,6 +16,8 @@
 
 [代码预解析](./JavaScript/代码预解析.md)
 
+[JavaScript 记不住的代码](./JavaScript/记不住的代码.md)
+
 ## 常用工具
 
 [Yarn 常用命令](./常用工具/Yarn.md)
