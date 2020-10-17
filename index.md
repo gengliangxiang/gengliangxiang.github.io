@@ -18,6 +18,8 @@
 
 [JavaScript 记不住的代码](./JavaScript/记不住的代码.md)
 
+[排序算法](./排序算法/排序算法.md)
+
 ## 常用工具
 
 [Yarn 常用命令](./常用工具/Yarn.md)
