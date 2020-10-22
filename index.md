@@ -5,6 +5,7 @@
 [记不住的 CSS](./CSS/记不住的CSS.md)
 
 [CSS3 速查笔记](./CSS/CSS3速查笔记.md)
+[CSS3 选择器笔记](./CSS/CSS选择器笔记.md)
 
 ## Webpack
 
@@ -25,6 +26,11 @@
 [不常用笔记](./HTML/不常用笔记.md)
 
 [基本标签整理](./HTML/基本标签整理.md)
+
+## TypeScript
+
+[TypeScript文档笔记](./TypeScript/TypeScript文档笔记.md)
+
 
 ## 常用工具
 
