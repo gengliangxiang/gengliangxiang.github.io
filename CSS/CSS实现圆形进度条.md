@@ -1,10 +1,17 @@
-# CSS实现圆形进度条
+# CSS 实现圆形进度条
+
 ## 示例图
+
 ![图片描述][1]
+
 ## 结构
-首先一个父级div设置相对定位，内部含有四个半圆div和一个用于遮罩的小圆div
+
+首先一个父级 div 设置相对定位，内部含有四个半圆 div 和一个用于遮罩的小圆 div
+
 ## 实现步骤
-- 先写出基本html结构
+
+- 先写出基本 html 结构
+
 ```
 <div class="box">
   <div class="bg1"></div>
@@ -14,7 +21,9 @@
   <div class="content"></div>
 </div>
 ```
--  父级div和content添加样式
+
+- 父级 div 和 content 添加样式
+
 ```
 .box{
   position: relative;
@@ -30,9 +39,12 @@
   z-index: 5;
 }
 ```
+
 当前效果：
 ![图片描述][2]
+
 - 添加第一个背景半圆
+
 ```
 .bg1{
   position: absolute;
@@ -43,9 +55,11 @@
   background: sandybrown;
 }
 ```
+
 ![图片描述][3]
 
 - 添加第二个背景半圆
+
 ```
 .bg2{
   left: 60px;
@@ -57,9 +71,11 @@
   background: sandybrown;
 }
 ```
+
 ![图片描述][4]
 
-- 添加第一个进度半圆，这个时候，去页面调整rotate的角度可以看到进度旋转
+- 添加第一个进度半圆，这个时候，去页面调整 rotate 的角度可以看到进度旋转
+
 ```
 .pr1 {
   position: absolute;
@@ -73,9 +89,11 @@
   transform-origin: 0px 60px;
 }
 ```
+
 ![图片描述][5]
 
-- 添加第二个半圆，第一个半圆只能旋转到50%，所以需要第二个半圆来走完剩下的一半
+- 添加第二个半圆，第一个半圆只能旋转到 50%，所以需要第二个半圆来走完剩下的一半
+
 ```
 .pr2 {
   position: absolute;
@@ -87,8 +105,8 @@
   transform-origin: 0px 60px;
 }
 ```
-- 添加动画函数，在分别把动画函数添加到.pr1和.pr2中，在实际需求中可以用js控制连个进度半圆的旋转角度
 
+- 添加动画函数，在分别把动画函数添加到.pr1 和.pr2 中，在实际需求中可以用 js 控制连个进度半圆的旋转角度
 
 ```
 .pr1 {
@@ -121,11 +139,11 @@ animation: pr2A 5s infinite linear forwards;
   }
 }
 ```
+
 以上完成
 
-
-  [1]: /img/bVbxYOu
-  [2]: /img/bVbxYQc
-  [3]: /img/bVbxYQl
-  [4]: /img/bVbxYQq
-  [5]: /img/bVbxYSd
+[1]: /img/bVbxYOu
+[2]: /img/bVbxYQc
+[3]: /img/bVbxYQl
+[4]: /img/bVbxYQq
+[5]: /img/bVbxYSd
