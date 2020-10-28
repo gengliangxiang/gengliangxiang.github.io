@@ -20,6 +20,8 @@
 
 [JavaScript 记不住的代码](./JavaScript/记不住的代码.md)
 
+[ajax、axios 和 fetch](./JavaScript/ajax、axios和fetch.md)
+
 [排序算法](./排序算法/排序算法.md)
 
 ## HTML
