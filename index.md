@@ -22,6 +22,8 @@
 
 [ajax、axios 和 fetch](./JavaScript/ajax、axios和fetch.md)
 
+[JavaScript 继承](./JavaScript/JavaScript继承.md)
+
 [排序算法](./排序算法/排序算法.md)
 
 ## HTML
