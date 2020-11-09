@@ -65,4 +65,5 @@ module.exports = {
 }
 ```
 
-7.移除loaders，必须使用rules（在3版本的时候loaders和rules 是共存的但是到4的时候只允许使用rules）
+7.移除 loaders，必须使用 rules
+- （在 3 版本的时候 loaders 和 rules 是共存的但是到 4 的时候只允许使用 rules）
