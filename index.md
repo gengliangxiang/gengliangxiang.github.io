@@ -42,6 +42,10 @@
 
 [TypeScript 文档笔记](./TypeScript/TypeScript文档笔记.md)
 
+## Vue
+
+[vuex 基本使用](./Vue/vuex基本使用.md)
+
 ## 浏览器相关
 
 [浏览器缓存机制](./浏览器相关/浏览器缓存机制.md)
