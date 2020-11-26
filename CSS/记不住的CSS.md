@@ -119,10 +119,6 @@ vertical-align: middle;
 vertical-align: bottom;
 ```
 
-```
-background:transparent;
-```
-
 ## css 滤镜
 
 ```
