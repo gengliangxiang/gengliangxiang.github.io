@@ -42,6 +42,8 @@
 
 [JavaScript 继承](./JavaScript/JavaScript继承.md)
 
+[require 与 import](./JavaScript/require与import.md)
+
 [排序算法](./排序算法/排序算法.md)
 
 ## HTML
